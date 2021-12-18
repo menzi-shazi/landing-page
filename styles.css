@@ -6,8 +6,8 @@
     background-color: #1F2937;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 50px;
     margin: -8px;
+    margin-bottom: 0;
 }
 
 .logo-links{
@@ -59,3 +59,47 @@ li{
 
 /* Styling the second section */
 
+.second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.subtext-images{
+    display: flex;
+    gap: 40px
+}
+
+.subtext-images div{
+    width: 150px;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.info{
+    font-size: 36px;
+    color: #1F2937;
+    margin: 30px;
+}
+
+/* Styling the third section */
+
+.third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: -8px;
+    margin-bottom: 0;
+}
+
+.third-section div{
+    text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
+    width: 1000px;
+}
