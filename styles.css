@@ -103,3 +103,48 @@ li{
     color: #1F2937;
     width: 1000px;
 }
+
+/* Styling the fourth section */
+
+.fourth-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px;
+    background-color: #3882F6;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.fourth-section button{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 1px solid white;
+}
+
+.call{
+    color: white;
+    font-size: 36px;
+}
+
+.sign{
+    color: white;
+    font-size: 24px;
+}
+
+/* Styling the footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    font-size: 18px;
+    padding: 30px;
+    margin: -8px;
+    margin-top: 0;
+}
